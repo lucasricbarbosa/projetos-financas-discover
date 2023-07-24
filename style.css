@@ -194,6 +194,10 @@ td.expense {
   color: var(--red);
 }
 
+td img{
+  cursor: pointer;
+}
+
 /* Modal =============================== */
 .modal-overlay {
   width: 100%;
@@ -280,6 +284,9 @@ footer {
 }
 
 @media screen and (max-width: 800px) {
+  table tbody tr {
+    opacity: 1;
+  }
   .button.cancel {
     color: #fff;
     background-color: var(--red);
